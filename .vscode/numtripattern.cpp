@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+ int n;
+ cin>>n;
+
+ int row = 1;
+ int count = 0;
+
+ while(row <= n){
+    int col = 1;
+    while(col <= row){
+        count = count + 1;
+    cout << count << " ";
+    col = col + 1;
+ }
+row = row + 1;
+cout << endl;
+ }
+    return 0;
+}
